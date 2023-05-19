@@ -81,7 +81,9 @@ span{
 }
 .card:hover{
   cursor: pointer;
-  background-color: #4b4545;
+  background-color: #757474 !important;
+  transform: scale(1.1,1.2);
+  transition: 0.5s ease-in-out 0.5s;
 }
 .subscription{
     width: 100vw;
@@ -93,6 +95,17 @@ span{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+.archives-header{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: url('./images/archives.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
 }
 h4{
     text-align: center;
